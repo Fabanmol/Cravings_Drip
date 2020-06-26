@@ -1,0 +1,76 @@
+.hideClass{
+    display: none;
+}
+.showClass{
+    display: inline;
+    /* background-image: url("C:\Users\lenovo\Desktop\internship_project - Copy\src\assets\Images\MainBack.svg"); */
+}
+li{
+    list-style: none;
+}
+.heading{
+    background-color: rgba(58, 206, 169, 0.815);
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.image2{
+    width: 100%;
+    margin:0  auto;
+    display: block;
+}
+.Pizza{
+    background-image: url("C:/Users/lenovo/Desktop/internship_project/src/assets/Images/pizzaimg.svg");
+    width: 200px;
+    height: 200px;
+    margin: 15px ;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-size: cover;
+    cursor: pointer;
+}
+.Burger{
+    background-image: url("C:/Users/lenovo/Desktop/internship_project/src/assets/Images/burgerimg.svg");
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: lawngreen;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-size: contain;
+    cursor: pointer;
+}
+.Icecream{
+    background-image: url("C:/Users/lenovo/Desktop/internship_project/src/assets/Images/icecream.svg");
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: #52038f;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-size: contain;
+    cursor: pointer;
+}
+.display{
+    display: inline-block;
+}
+.DisplayWrapper{
+    width: 100%;
+    text-align: center;
+}
+.mainheading{
+    height: 90vh !important;
+}
+@media(max-width:499px)
+{
+    .display{
+        display:block;
+    }
+    .DisplayWrapper{
+        width: 100%;
+        text-align: center;
+    }
+}

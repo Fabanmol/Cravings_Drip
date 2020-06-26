@@ -1,0 +1,493 @@
+.Base{
+    width:70%;
+    height:88%;
+    margin:auto;
+    border:12px solid #8c4644;
+    border-radius:100%;
+    position: relative;
+    background-color:#ffefbf;
+}
+.PepperoniLayer{
+    width:60%;
+    height:80%;
+    position:absolute;
+    /* margin:15%; */
+    top:4.5%;
+    left:22%;
+    opacity:1;
+    border-radius:100%;
+    background-color:transparent;
+}
+.Pepperoni{
+    width: 12%;
+    height:12%;
+    border-radius:100%;
+    border:0.5px solid #8c0000;
+    background-color:#b30000;
+    position:absolute;
+}
+.PepperoniDot{
+    width:8%;
+    height:8%;
+    border-radius:100%;
+    background-color:#000000;
+    position:absolute;
+    float:left;
+}
+.dot1{
+    position:absolute;
+    top:8px;
+    left:5px;
+}
+.dot2{
+    position:absolute;
+    top:14px;
+    left:3px
+}
+.dot3{
+    position:absolute;
+    top:22px;
+    left:5.5px
+}
+.dot4{
+    position:absolute;
+    top:25px;
+    left:16px
+}
+.dot5{
+    position:absolute;
+    top:13px;
+    left:25px
+}
+.dot6{
+    position:absolute;
+    top:6px;
+    left:23px
+}
+.dot7{
+    position:absolute;
+    top:5px;
+    left:12px
+}
+.dot8{
+    position:absolute;
+    top:20px;
+    left:22px
+}
+.dot9{
+    position:absolute;
+    top:14px;
+    left:14px
+}
+.dot10{
+    position:absolute;
+    top:25px;
+    left:10px
+}
+
+.Pepperoni1{
+    position:absolute;
+    top:10px;
+    left:105px;
+}
+.Pepperoni2{
+    position:absolute;
+    top:50px;
+    left:40px;
+}
+.Pepperoni3{
+    position:absolute;
+    top:125px;
+    left:18px;
+}
+.Pepperoni4{
+    position:absolute;
+    top:198px;
+    left:42px;
+}
+.Pepperoni5{
+    position:absolute;
+    top:240px;
+    left:112px;
+}
+.Pepperoni6{
+    position:absolute;
+    top:215px;
+    left:192px;
+}
+.Pepperoni7{
+    position:absolute;
+    top:160px;
+    left:238px;
+}
+.Pepperoni8{
+    position:absolute;
+    top:80px;
+    left:235px;
+}
+.Pepperoni9{
+    position:absolute;
+    top:28px;
+    left:185px;
+}
+.Pepperoni10{
+    position:absolute;
+    top:100px;
+    left:90px;
+}
+.Pepperoni11{
+    position:absolute;
+    top:100px;
+    left:175px;
+}
+.Pepperoni12{
+    position:absolute;
+    top:165px;
+    left:132px;
+}
+
+
+/* oliven */
+.oliven{
+    width:10px;
+    height:10px;
+    border:8px solid #080808;
+    border-radius:100%;
+}
+.olivenLayer{
+    width:60%;
+    height:80%;
+    position:absolute;
+    top:4.5%;
+    left:22%;
+    opacity:1;
+    border-radius:100%;
+    background-color:transparent;
+}
+
+.oliven1{
+    position:absolute;
+    top:23px;
+    left:69px;
+}
+.oliven2{
+    position:absolute;
+    top:90px;
+    left:20px;
+}
+.oliven3{
+    position:absolute;
+    top:183px;
+    left:15px;
+}
+.oliven4{
+    position:absolute;
+    top:253px;
+    left:75px;
+}
+.oliven5{
+    position:absolute;
+    top:260px;
+    left:168px;
+}
+.oliven6{
+    position:absolute;
+    top:213px;
+    left:242px;
+}
+.oliven7{
+    position:absolute;
+    top:133px;
+    left:270px;
+}
+.oliven8{
+    position:absolute;
+    top:53px;
+    left:238px;
+}
+.oliven9{
+    position:absolute;
+    top:13px;
+    left:160px;
+}
+.onion{
+
+    width:8px;
+    height:8px;
+    border:10px solid #e67416;
+    background: rgb(211, 144, 56);
+    border-radius:100%;
+}
+.onionlayer{
+	width:300px;
+    height:300px;
+    position:absolute;
+    top:4.5%;
+    left:22%;
+    opacity:1;
+    border-radius:100%;
+    background-color:transparent;
+}
+.onion1{
+    position:absolute;
+    top:73px;
+    left:172px;
+}
+.onion2{
+    position:absolute;
+    top:73px;
+    left:98px;
+}
+.onion3{
+    position:absolute;
+    top:139px;
+    left:70px;
+}
+.onion4{
+    position:absolute;
+    top:195px;
+    left:105px;
+}
+.onion5{
+    position:absolute;
+    top:198px;
+    left:179px;
+}
+.onion6{
+    position:absolute;
+    top:140px;
+    left:215px;
+}
+.onion7{
+    position:absolute;
+    top:135px;
+    left:145px;
+}
+/* tomato */
+.tomatoLayer{
+    width:300px;
+    height:300px;
+    position:absolute;
+    top:4.5%;
+    left:22%;
+    opacity:1;
+    border-radius:100%;
+    background-color:transparent;    
+}
+.tomato{
+    width:35px;
+    height:18px;
+    border-radius:20px 20px 0 0;
+    background :#d90000;
+    border:2px solid #b30000;
+}
+
+.tomatoLine{
+    width:3px;
+    height:9px;
+    background-color:#ff4c4d;
+    border-radius:0 0 2px 2px;
+}
+.tomatoLine1{
+    position:absolute;
+    top:9px;
+    left:19.5px;
+    transform:rotate(45deg);
+}
+.tomatoLine2{
+    position:absolute;
+    top:9px;
+    left:14.5px;
+    transform:rotate(-45deg);
+}
+.tomatoSeed{
+    width:2px;
+    height:2px;
+    background-color:#ff4c4d;
+    border-radius:2px;
+}
+.tomatoSeed1{
+    position:absolute;
+    top:15px;
+    left:3px;
+}
+.tomatoSeed2{
+    position:absolute;
+    top:13px;
+    left:9px;
+}
+.tomatoSeed3{
+    position:absolute;
+    top:9px;
+    left:4px;
+}
+.tomatoSeed4{
+    position:absolute;
+    top:4px;
+    left:12px;
+}
+.tomatoSeed5{
+    position:absolute;
+    top:9px;
+    left:17px;
+}
+.tomatoSeed6{
+    position:absolute;
+    top:4px;
+    left:21px;
+}
+.tomatoSeed7{
+    position:absolute;
+    top:10px;
+    left:28px;
+}
+.tomatoSeed8{
+    position:absolute;
+    top:15px;
+    left:24px;
+}
+.tomatoSeed9{
+    position:absolute;
+    top:15px;
+    left:31px;
+}
+.tomato1{
+    position:absolute;
+    top:45px;
+    left:80px;
+    transform:rotate(45deg);
+}
+
+.tomato2{
+    position:absolute;
+    top:105px;
+    left:45px;
+    transform:rotate(15deg);
+}
+.tomato3{
+    position:absolute;
+    top:170px;
+    left:50px;
+    transform:rotate(-10deg);
+}
+.tomato4{
+    position:absolute;
+    top:225px;
+    left:88px;
+    transform:rotate(-45deg);
+}
+.tomato5{
+    position:absolute;
+    top:230px;
+    left:150px;
+    transform:rotate(-105deg);
+}
+.tomato6{
+    position:absolute;
+    top:190px;
+    left:205px;
+    transform:rotate(-135deg);
+}
+.tomato7{
+    position:absolute;
+    top:137px;
+    left:235px;
+    transform:rotate(-185deg);
+}
+.tomato8{
+    position:absolute;
+    top:80px;
+    left:205px;
+    transform:rotate(-215deg);
+}
+.tomato9{
+    position:absolute;
+    top:50px;
+    left:150px;
+    transform:rotate(-255deg);
+}
+.paneerlayer{
+	width:300px;
+    height:300px;
+    position:absolute;
+    top:4.5%;
+    left:22%;
+    opacity:1;
+    border-radius:100%;
+    background-color:transparent;
+}
+.paneer{
+	width: 18px;
+	height: 18px;
+	 background: linear-gradient(#f4d004, #d6bb22);
+}
+.paneer1{
+    position:absolute;
+    top:100px;
+    left:140px;
+    transform:rotate(90deg);
+}
+.paneer2{
+    position:absolute;
+    top:155px;
+    left:105px;
+    transform:rotate(-20deg);
+}
+.paneer3{
+    position:absolute;
+    top:245px;
+    left:145px;
+    transform:rotate(25deg);
+}
+.paneer4{
+    position:absolute;
+    top:195px;
+    left:75px;
+    transform:rotate(25deg);
+}
+.paneer5{
+    position:absolute;
+    top:155px;
+    left:185px;
+    transform:rotate(25deg);
+}
+.paneer6{
+    position:absolute;
+   top:175px;
+    left:235px;
+    transform:rotate(25deg);
+}
+.paneer7{
+    position:absolute;
+    top:15px;
+    left:105px;
+    transform:rotate(25deg);
+}
+
+
+@media(max-width:499px){
+    .Base{
+        width:80%;
+        height:98%;
+    }
+    .PepperoniLayer{
+        top:3.5%;
+        left:17%;
+    }
+    .olivenLayer{
+        top:3.5%;
+        left:17%;
+    }
+    .paneerlayer{
+        top:3.5%;
+        left:17%;
+    }
+    .onionlayer{
+        top:3.5%;
+        left:17%;
+    }
+    .tomatoLayer{
+        top:3.5%;
+        left:17%;
+    }
+}

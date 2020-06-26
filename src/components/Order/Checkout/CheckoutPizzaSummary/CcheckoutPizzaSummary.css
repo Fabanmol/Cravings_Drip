@@ -1,0 +1,27 @@
+.CheckoutSummary{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.pizzawrap{
+    width: 100%;
+    margin: auto;
+    height: 100%;
+}
+@media (min-width:600px)
+{
+    .CheckoutSummary{
+        width: 500px;
+    }
+}
+
+@media(max-width:600px){
+    .pizzawrap{
+        width:380px;
+        height:180px;
+         margin-left:-15%
+    }
+    .pizzabutton{
+        margin-top: 150px;
+    }
+}

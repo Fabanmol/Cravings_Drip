@@ -1,0 +1,40 @@
+.SideDrawer{
+    position: fixed;
+    width: 280px;
+    max-width: 70%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url('C:/Users/lenovo/Desktop/internship_project/src/assets/Images/backnew2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 200;
+    background-color: rgb(245, 242, 197);
+    padding: 32px 16px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+}
+.Logo{
+    height: 8%;
+    margin-bottom: 42px;
+}
+
+@media (min-width:500px){
+    .SideDrawer{
+        display: none;
+    }
+}
+/* @media(max-width:500px){
+    .sidenav{
+        margin: 0;
+        height: 50vh;
+        background-color: rgba(235, 84, 235, 0.158);
+    }
+} */
+
+.Open{
+    transform: translateX(0);
+}
+.Closed{
+    transform: translateX(-100%);
+}

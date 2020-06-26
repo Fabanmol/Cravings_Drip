@@ -1,0 +1,12 @@
+.HomePage{
+    height: 80vh;
+    margin-top: -20px;
+    /* background-color: lawngreen; */
+    background-image: url('C:/Users/lenovo/Desktop/internship_project/src/assets/Images/backnew2.png') ;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.mainheading{
+    height: 90vh !important;
+}

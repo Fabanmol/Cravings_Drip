@@ -1,0 +1,50 @@
+.Pizza{
+    width:100%;
+    margin: auto;
+    margin-top: 0;
+    height: 300px;
+    overflow: auto;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    font-size: 1.2rem;
+}
+.tag{
+    margin: auto;
+    background-color: aqua;
+    border: 2px solid #222222;
+}
+
+.contain{
+    width:98%;
+    position: absolute;
+    margin: auto;
+    top: -2%;
+    left: -4%;
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+}
+
+@media (min-width:500px) and (min-height:400px) {
+    .Pizza{
+        width: 350px;
+        height: 300px;
+    }
+}
+ 
+@media (min-width:500px) and (min-height:401px) {
+    .Pizza{
+        width: 450px;
+        height: 340px;
+    }
+}
+
+@media (min-width:1000px) and (min-height:700px) {
+    .Pizza{
+        width: 700px;
+        height: 500px;
+    }
+}
